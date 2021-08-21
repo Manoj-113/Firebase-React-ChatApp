@@ -1,19 +1,21 @@
 import React from 'react'
 import {Button} from '@material-ui/core'
 import firebase from 'firebase'
+import auth from '../firebase'
 
 function SignIn() {
 
     function SignInWithGoogle() {
-
+        const provider = new firebase.auth.GoogleAuthProvider()
+        auth.signInWithPopup(provider)
     }
 
 
     return (
         <div>
-            <Butto Onclick = (signInWithGoogle)>
+            <Button Onclick = {signInWithGoogle}>
                 Sign In With Google
-            </Butto>
+            </Button>
         </div>
     )
 }
