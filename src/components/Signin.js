@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button} from '@material-ui/core'
+import {Button} from '@material-ui/core/button'
 import firebase from 'firebase'
 import {auth} from '../firebase'
 
