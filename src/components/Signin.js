@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Signin() {
+
+function SignIn() {
     return (
         <div>
             
