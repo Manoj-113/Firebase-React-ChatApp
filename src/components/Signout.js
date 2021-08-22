@@ -6,7 +6,7 @@ import {Button} from '@material-ui/core'
 function Signout() {
     return (
         <div>
-            <Button onClick={() = >auth.Signout()}>Sign Out</Button>
+            <Button onClick={() =>auth.Signout()}>Sign Out</Button>
         </div>
     )
 }
