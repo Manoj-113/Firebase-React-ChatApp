@@ -11,8 +11,9 @@ function App() {
 
   return (
     <>
-      <SignIn/>
-      <Chat/>
+
+      {user ? <chat/> : <SignIn />}
+    
     </>
   );
 }
