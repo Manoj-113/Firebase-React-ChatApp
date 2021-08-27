@@ -1,5 +1,5 @@
 import React from 'react'
-import SignOut from './Signout'
+import SignOut from './SignOut'
 
 function Chat() {
     return (
