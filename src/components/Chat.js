@@ -1,5 +1,6 @@
 import React, {userState, useEffect} from 'react'
 import SignOut from './SignOut'
+import {db} from '../firebase'
 
 function Chat() {
 
