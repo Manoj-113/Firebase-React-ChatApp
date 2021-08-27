@@ -3,7 +3,7 @@ import {auth} from '../firebase'
 import {Button} from '@material-ui/core'
 
 
-function Signout() {
+function SignOut() {
     return (
         <div>
             <Button onClick={() =>auth.Signout()}>Sign Out</Button>
@@ -11,4 +11,4 @@ function Signout() {
     )
 }
 
-export default Signout
+export default SignOut
