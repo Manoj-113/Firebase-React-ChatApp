@@ -12,12 +12,13 @@ function Chat() {
     return (
         <div>
 
-            <SignOut></SignOut>
+            <SignOut/>
 
             Chat
             {messages.map(({id,text,photoURL}) => {
                 <div>
-
+                    <img src={photoURL} alt=""/>
+                    <p>{text}</p>
                 </div>
             })}
 
