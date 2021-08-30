@@ -1,6 +1,7 @@
 import React, {userState, useEffect} from 'react'
 import SignOut from './SignOut'
 import {db} from '../firebase'
+import SendMessage from './SendMessage'
 
 function Chat() {
 
@@ -22,6 +23,8 @@ function Chat() {
                     <p>{text}</p>
                 </div>
             })}
+
+            <SendMessage></SendMessage>
 
         
         </div>
