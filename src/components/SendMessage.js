@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{userState} from 'react'
+
 
 function SendMessage() {
+    const [msg, setMsg] = userState('')
     return (
         <div>
             <form>
