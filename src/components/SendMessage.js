@@ -10,7 +10,12 @@ function SendMessage() {
         e.preventDefault()
         const{uid, photoURL} = e.auth.currentUser
 
-        
+        await db.collection('messages').add({
+            text: msg,
+            photoURL,
+            uid,
+            create
+        })
     }
     return (
         <div>
