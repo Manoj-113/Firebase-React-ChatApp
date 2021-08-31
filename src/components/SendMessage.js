@@ -14,7 +14,7 @@ function SendMessage() {
             text: msg,
             photoURL,
             uid,
-            create
+            createdAt: firebase.firestore.FieldValue.serverTimestamp()
         })
     }
     return (
