@@ -1,9 +1,14 @@
 import React,{userState} from 'react'
+import {db, auth} from '../firebase'
 import {Input, Button} from '@material-ui/core'
 
 
 function SendMessage() {
     const [msg, setMsg] = userState('')
+
+    async function sendMessage{
+        e.preventDefault()
+    }
     return (
         <div>
             <form onSubmit={sendMessage}>
