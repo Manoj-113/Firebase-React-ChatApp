@@ -6,8 +6,11 @@ import {Input, Button} from '@material-ui/core'
 function SendMessage() {
     const [msg, setMsg] = userState('')
 
-    async function sendMessage{
+    async function sendMessage(e){
         e.preventDefault()
+        const{uid, photoURL} = e.auth.currentUser
+
+        
     }
     return (
         <div>
