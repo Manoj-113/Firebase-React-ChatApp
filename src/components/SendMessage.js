@@ -16,6 +16,7 @@ function SendMessage() {
             uid,
             createdAt: firebase.firestore.FieldValue.serverTimestamp()
         })
+        setMsg('')
     }
     return (
         <div>
